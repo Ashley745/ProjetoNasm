@@ -9,5 +9,5 @@ _start:
     int 0x80                ;chama o terminal para exibir o texto
 
 section .data               ;seção de dados
-mdg db 'Hello, world!'      ;mensgaem que deve aparecer
+msg db 'Hello, world!'      ;mensagem que deve aparecer
 len equ $ - msg             ;obtem a quantidade de caracteres de mensagem                                                                                                                                         
